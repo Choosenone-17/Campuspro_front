@@ -23,7 +23,7 @@ export default function CollegeDetail() {
     try {
       const { data } =
         await axios.get(
-          `http://localhost:5000/api/colleges/${id}`
+          `https://campuspro-back.onrender.com/api/colleges/${id}`
         );
 
       setCollege(data);

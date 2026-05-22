@@ -20,7 +20,7 @@ export default function Register() {
     try {
       const { data } =
         await axios.post(
-          "http://localhost:5000/api/auth/register",
+          "https://campuspro-back.onrender.com/api/auth/register",
           {
             name,
             email,

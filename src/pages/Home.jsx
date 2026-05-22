@@ -29,7 +29,7 @@ export default function Home() {
   const fetchColleges = async () => {
     try {
       const { data } = await axios.get(
-        "http://localhost:5000/api/colleges"
+        "https://campuspro-back.onrender.com/api/colleges"
       );
 
       setColleges(data);
